@@ -1,0 +1,7 @@
+1,PS4,True
+2,PS5,True
+3,XBOX 360,True
+4,XBOX series X,True
+5,PC,True
+6,asdd,False
+7,asd,True

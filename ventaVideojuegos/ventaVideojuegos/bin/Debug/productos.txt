@@ -1,0 +1,41 @@
+1,Mafia (Definitive Edition),259,78,1,1,Online,Un jugador,mafia.png,False
+2,Red Dead Redemption II,2500,63,2,1,Offline,Un jugador,reddeadredemption2.png,True
+3,Spider-Man Remastered,4999,31,2,2,Offline,Un jugador,spiderman.png,True
+4,Far Cry 5,2999,82,2,5,Offline,Un jugador,farcry5.png,True
+5,Fallout 4,799,90,2,3,Online,Multijugador,fallout4.png,True
+6,Call of Duty Modern Warfare II,6990,7,2,4,Online,Multijugador,modernwarfare2.png,True
+7,TEKKEN 7,1990,97,2,5,Offline,Un jugador,tekken7.png,True
+8,Call of Duty Black Ops III,990,99,2,1,Online,Multijugador,blackops3.png,False
+9,Destiny 2,2499,92,2,5,Offline,Un jugador,destiny2.png,True
+10,Tom Clancy´s Rainbow Six Siege,999,98,2,3,Offline,Un jugador,rainbowsix.png,True
+11,FIFA 23,11999,79,3,2,Online,Multijugador,fifa23.png,True
+12,NBA 2K23,9999,98,3,4,Online,Multijugador,nba23.png,True
+13,Forza Horizon 4,2999,100,3,5,Offline,Un jugador,forzahorizon4.png,True
+14,MADDEN NFL 23,6400,70,3,1,Online,Multijugador,madden23.png,True
+15,F1 22,6000,100,3,2,Online,Un jugador,f122.png,True
+16,WWE 2K22,5999,90,3,3,Offline,Multijugador,wwe22.png,True
+17,UFC 4,7900,100,3,1,Offline,Multijugador,ufc4.png,True
+18,The crew 2,2699,90,3,5,Offline,Un jugador,thecrew2.png,True
+19,Captain TSUBASA,2599,100,3,1,Offline,Un jugador,capitantsubasa.png,True
+20,Tennis World Tour 2,1999,100,3,4,Online,Multijugador,tennistour2.png,True
+21,Microsoft Flight Simulator Game Of the Year,4000,100,4,2,Offline,Un jugador,flightsimulator.png,True
+22,The sims 4,2100,100,4,5,Online,Un jugador,sims4.png,True
+23,Tropico 6,999,99,4,5,Offline,Un jugador,tropico6.png,True
+24,Cities Skylines,499,100,4,4,Offline,Un jugador,citiesskylines.png,True
+25,RailWay Empire,700,100,4,5,Offline,Un jugador,railwayempier.png,True
+26,F1 Manager 22,3500,90,4,2,Offline,Un jugador,f122.png,True
+27,Farthest Frontier,1200,99,4,1,Offline,Un jugador,farthestfrontier.png,True
+28,Port Royale 3,999,100,4,5,Offline,Un jugador,portroyale3.png,True
+29,Snow Runner,1500,90,4,2,Online,Multijugador,snowrunner.png,True
+30,Stardew Valley,280,100,4,5,Offline,Un jugador,stardewvalley.png,True
+31,Tomb Raider,220,100,4,5,Offline,Un jugador,tombraider.png,True
+32,GTA V,2800,100,4,1,Online,Multijugador,gta5.png,True
+33,Minecraft Dungeons,2900,100,4,5,Online,Un jugador,minecraftdungeons.png,True
+34,The Last Of Us parte 2,8000,100,4,2,Offline,Un jugador,lastofus2.png,True
+35,Batman Arkham Knight,200,100,4,3,Offline,Un jugador,batman.png,True
+36,Assasin's Creed Originals,2999,100,4,3,Offline,Un jugador,creedorigins.png,True
+37,Stray,1300,100,4,5,Offline,Un jugador,stray.png,True
+38,God of War Ragnarok,10000,100,4,2,Offline,Un jugador,godofwarragnarok.png,True
+39,Dishonored,230,100,4,5,Offline,Un jugador,dishonored2.png,True
+40,Sherlock Holmes chapter one,2000,100,4,4,Offline,Un jugador,sherlockcap1.png,True
+41,asd,3,23,3,2,asd,sd,batman.png,False

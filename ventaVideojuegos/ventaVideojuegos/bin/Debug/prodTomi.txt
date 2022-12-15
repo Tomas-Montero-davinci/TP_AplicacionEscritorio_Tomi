@@ -1,0 +1,40 @@
+1,Mafia (Definitive Edition),259,93,2,1,Online,Un jugador,C:\Users\tomi-\source\repos\TP_PlatDeDesarrollo_Escritorio\ventaVideojuegos\ventaVideojuegos\bin\Debug\Imgs\mafia.png,True
+2,Red Dead Redemption II,2500,71,2,1,Offline,Un jugador,C:\Users\tomi-\source\repos\TP_PlatDeDesarrollo_Escritorio\ventaVideojuegos\ventaVideojuegos\bin\Debug\Imgs\reddeadredemption2.png,True
+3,Spider-Man Remastered,4999,35,2,2,Offline,Un jugador,C:\Users\tomi-\source\repos\TP_PlatDeDesarrollo_Escritorio\ventaVideojuegos\ventaVideojuegos\bin\Debug\Imgs\spiderman.png,True
+4,Far Cry 5,2999,83,2,5,Offline,Un jugador,C:\Users\tomi-\source\repos\TP_PlatDeDesarrollo_Escritorio\ventaVideojuegos\ventaVideojuegos\bin\Debug\Imgs\farcry5.png,True
+5,Fallout 4,799,90,2,3,Online,Multijugador,C:\Users\tomi-\source\repos\TP_PlatDeDesarrollo_Escritorio\ventaVideojuegos\ventaVideojuegos\bin\Debug\Imgs\fallout4.png,True
+6,Call of Duty Modern Warfare II,6990,8,2,4,Online,Multijugador,C:\Users\tomi-\source\repos\TP_PlatDeDesarrollo_Escritorio\ventaVideojuegos\ventaVideojuegos\bin\Debug\Imgs\modernwarfare2.png,True
+7,TEKKEN 7,1990,98,2,5,Offline,Un jugador,C:\Users\tomi-\source\repos\TP_PlatDeDesarrollo_Escritorio\ventaVideojuegos\ventaVideojuegos\bin\Debug\Imgs\tekken7.png,True
+8,Call of Duty Black Ops III,990,100,2,1,Online,Multijugador,C:\Users\tomi-\source\repos\TP_PlatDeDesarrollo_Escritorio\ventaVideojuegos\ventaVideojuegos\bin\Debug\Imgs\blackops3.png,True
+9,Destiny 2,2499,97,2,5,Offline,Un jugador,C:\Users\tomi-\source\repos\TP_PlatDeDesarrollo_Escritorio\ventaVideojuegos\ventaVideojuegos\bin\Debug\Imgs\destiny2.png,True
+10,Tom Clancy´s Rainbow Six Siege,999,98,2,3,Offline,Un jugador,C:\Users\tomi-\source\repos\TP_PlatDeDesarrollo_Escritorio\ventaVideojuegos\ventaVideojuegos\bin\Debug\Imgs\rainbowsix.png,True
+11,FIFA 23,11999,80,3,2,Online,Multijugador,C:\Users\tomi-\source\repos\TP_PlatDeDesarrollo_Escritorio\ventaVideojuegos\ventaVideojuegos\bin\Debug\Imgs\fifa23.png,True
+12,NBA 2K23,9999,100,3,4,Online,Multijugador,C:\Users\tomi-\source\repos\TP_PlatDeDesarrollo_Escritorio\ventaVideojuegos\ventaVideojuegos\bin\Debug\Imgs\nba23.png,True
+13,Forza Horizon 4,2999,100,3,5,Offline,Un jugador,C:\Users\tomi-\source\repos\TP_PlatDeDesarrollo_Escritorio\ventaVideojuegos\ventaVideojuegos\bin\Debug\Imgs\forzahorizon4.png,True
+14,MADDEN NFL 23,6400,100,3,1,Online,Multijugador,C:\Users\tomi-\source\repos\TP_PlatDeDesarrollo_Escritorio\ventaVideojuegos\ventaVideojuegos\bin\Debug\Imgs\madden23.png,True
+15,F1 22,6000,100,3,2,Online,Un jugador,C:\Users\tomi-\source\repos\TP_PlatDeDesarrollo_Escritorio\ventaVideojuegos\ventaVideojuegos\bin\Debug\Imgs\f122.png,True
+16,WWE 2K22,5999,90,3,3,Offline,Multijugador,C:\Users\tomi-\source\repos\TP_PlatDeDesarrollo_Escritorio\ventaVideojuegos\ventaVideojuegos\bin\Debug\Imgs\wwe22.png,True
+17,UFC 4,7900,100,3,1,Offline,Multijugador,C:\Users\tomi-\source\repos\TP_PlatDeDesarrollo_Escritorio\ventaVideojuegos\ventaVideojuegos\bin\Debug\Imgs\ufc4.png,True
+18,The crew 2,2699,90,3,5,Offline,Un jugador,C:\Users\tomi-\source\repos\TP_PlatDeDesarrollo_Escritorio\ventaVideojuegos\ventaVideojuegos\bin\Debug\Imgs\thecrew2.png,True
+19,Captain TSUBASA,2599,100,3,1,Offline,Un jugador,C:\Users\tomi-\source\repos\TP_PlatDeDesarrollo_Escritorio\ventaVideojuegos\ventaVideojuegos\bin\Debug\Imgs\capitantsubasa.png,True
+20,Tennis World Tour 2,1999,100,3,4,Online,Multijugador,C:\Users\tomi-\source\repos\TP_PlatDeDesarrollo_Escritorio\ventaVideojuegos\ventaVideojuegos\bin\Debug\Imgs\tennistour2.png,True
+21,Microsoft Flight Simulator Game Of the Year,4000,100,4,2,Offline,Un jugador,C:\Users\tomi-\source\repos\TP_PlatDeDesarrollo_Escritorio\ventaVideojuegos\ventaVideojuegos\bin\Debug\Imgs\flightsimulator.png,True
+22,The sims 4,2100,100,4,5,Online,Un jugador,C:\Users\tomi-\source\repos\TP_PlatDeDesarrollo_Escritorio\ventaVideojuegos\ventaVideojuegos\bin\Debug\Imgs\sims4.png,True
+23,Tropico 6,999,99,4,5,Offline,Un jugador,C:\Users\tomi-\source\repos\TP_PlatDeDesarrollo_Escritorio\ventaVideojuegos\ventaVideojuegos\bin\Debug\Imgs\tropico6.png,True
+24,Cities Skylines,499,100,4,4,Offline,Un jugador,C:\Users\tomi-\source\repos\TP_PlatDeDesarrollo_Escritorio\ventaVideojuegos\ventaVideojuegos\bin\Debug\Imgs\citiesskylines.png,True
+25,RailWay Empire,700,100,4,5,Offline,Un jugador,C:\Users\tomi-\source\repos\TP_PlatDeDesarrollo_Escritorio\ventaVideojuegos\ventaVideojuegos\bin\Debug\Imgs\railwayempier.png,True
+26,F1 Manager 22,3500,90,4,2,Offline,Un jugador,C:\Users\tomi-\source\repos\TP_PlatDeDesarrollo_Escritorio\ventaVideojuegos\ventaVideojuegos\bin\Debug\Imgs\f122.png,True
+27,Farthest Frontier,1200,99,4,1,Offline,Un jugador,C:\Users\tomi-\source\repos\TP_PlatDeDesarrollo_Escritorio\ventaVideojuegos\ventaVideojuegos\bin\Debug\Imgs\farthestfrontier.png,True
+28,Port Royale 3,999,100,4,5,Offline,Un jugador,C:\Users\tomi-\source\repos\TP_PlatDeDesarrollo_Escritorio\ventaVideojuegos\ventaVideojuegos\bin\Debug\Imgs\portroyale3.png,True
+29,Snow Runner,1500,90,4,2,Online,Multijugador,C:\Users\tomi-\source\repos\TP_PlatDeDesarrollo_Escritorio\ventaVideojuegos\ventaVideojuegos\bin\Debug\Imgs\snowrunner.png,True
+30,Stardew Valley,280,100,4,5,Offline,Un jugador,C:\Users\tomi-\source\repos\TP_PlatDeDesarrollo_Escritorio\ventaVideojuegos\ventaVideojuegos\bin\Debug\Imgs\stardewvalley.png,True
+31,Tomb Raider,220,100,4,5,Offline,Un jugador,C:\Users\tomi-\source\repos\TP_PlatDeDesarrollo_Escritorio\ventaVideojuegos\ventaVideojuegos\bin\Debug\Imgs\tombraider.png,True
+32,GTA V,2800,100,4,1,Online,Multijugador,C:\Users\tomi-\source\repos\TP_PlatDeDesarrollo_Escritorio\ventaVideojuegos\ventaVideojuegos\bin\Debug\Imgs\gta5.png,True
+33,Minecraft Dungeons,2900,100,4,5,Online,Un jugador,C:\Users\tomi-\source\repos\TP_PlatDeDesarrollo_Escritorio\ventaVideojuegos\ventaVideojuegos\bin\Debug\Imgs\minecraftdungeons.png,True
+34,The Last Of Us parte 2,8000,100,4,2,Offline,Un jugador,C:\Users\tomi-\source\repos\TP_PlatDeDesarrollo_Escritorio\ventaVideojuegos\ventaVideojuegos\bin\Debug\Imgs\lastofus2.png,True
+35,Batman Arkham Knight,200,100,4,3,Offline,Un jugador,C:\Users\tomi-\source\repos\TP_PlatDeDesarrollo_Escritorio\ventaVideojuegos\ventaVideojuegos\bin\Debug\Imgs\batman.png,True
+36,Assasin's Creed Originals,2999,100,4,3,Offline,Un jugador,C:\Users\tomi-\source\repos\TP_PlatDeDesarrollo_Escritorio\ventaVideojuegos\ventaVideojuegos\bin\Debug\Imgs\creedorigins.png,True
+37,Stray,1300,100,4,5,Offline,Un jugador,C:\Users\tomi-\source\repos\TP_PlatDeDesarrollo_Escritorio\ventaVideojuegos\ventaVideojuegos\bin\Debug\Imgs\stray.png,True
+38,God of War Ragnarok,10000,100,4,2,Offline,Un jugador,C:\Users\tomi-\source\repos\TP_PlatDeDesarrollo_Escritorio\ventaVideojuegos\ventaVideojuegos\bin\Debug\Imgs\godofwarragnarok.png,True
+39,Dishonored,230,100,4,5,Offline,Un jugador,C:\Users\tomi-\source\repos\TP_PlatDeDesarrollo_Escritorio\ventaVideojuegos\ventaVideojuegos\bin\Debug\Imgs\dishonored2.png,True
+40,Sherlock Holmes chapter one,2000,100,4,4,Offline,Un jugador,C:\Users\tomi-\source\repos\TP_PlatDeDesarrollo_Escritorio\ventaVideojuegos\ventaVideojuegos\bin\Debug\Imgs\sherlockcap1.png,True

@@ -1,0 +1,69 @@
+1,root,consumidor final,Spider-Man Remastered,4999,2,9998,5/11/2022 00:00:00
+1,root,consumidor final,TEKKEN 7,1990,1,1990,5/11/2022 00:00:00
+2,root,consumidor final,Fallout 4,799,1,799,5/11/2022 22:09:32
+3,root,consumidor final,FIFA 23,11999,1,11999,5/11/2022 23:05:47
+3,root,consumidor final,NBA 2K23,9999,1,9999,5/11/2022 23:05:47
+3,root,consumidor final,Forza Horizon 4,2999,1,2999,5/11/2022 23:05:47
+3,root,consumidor final,RailWay Empire,700,1,700,5/11/2022 23:05:47
+3,root,consumidor final,Microsoft Flight Simulator Game Of the Year,4000,1,4000,5/11/2022 23:05:47
+3,root,consumidor final,Snow Runner,1500,1,1500,5/11/2022 23:05:47
+3,root,consumidor final,Stardew Valley,280,1,280,5/11/2022 23:05:47
+3,root,consumidor final,Tomb Raider,220,1,220,5/11/2022 23:05:47
+3,root,consumidor final,GTA V,2800,1,2800,5/11/2022 23:05:47
+3,root,consumidor final,Batman Arkham Knight,200,1,200,5/11/2022 23:05:47
+4,root,consumidor final,Far Cry 5,2999,4,11996,8/11/2022 16:47:22
+5,root,consumidor final,Call of Duty Modern Warfare II,6990,1,6990,9/11/2022 17:40:50
+6,root,consumidor final,Spider-Man Remastered,4999,1,4999,9/11/2022 20:34:42
+7,root,consumidor final,Spider-Man Remastered,4999,1,4999,9/11/2022 20:34:55
+8,root,consumidor final,Spider-Man Remastered,4999,1,4999,9/11/2022 20:35:07
+9,root,consumidor final,The sims 4,2100,1,2100,9/11/2022 20:35:23
+10,root,consumidor final,Destiny 2,2499,10,24990,9/11/2022 21:00:54
+11,root,consumidor final,F1 22,6000,20,120000,9/11/2022 21:02:03
+12,root,consumidor final,Call of Duty Black Ops III,990,10,9900,9/11/2022 21:02:38
+13,root,asd,Fallout 4,799,1,799,9/11/2022 22:19:10
+14,root1,franco,Fallout 4,799,2,1598,9/11/2022 23:15:47
+15,root2,tomas,UFC 4,7900,3,23700,9/11/2022 23:16:08
+16,root2,rodrigo,Captain TSUBASA,2599,3,7797,9/11/2022 23:16:30
+17,root,franco,Fallout 4,799,1,799,10/11/2022 16:44:37
+18,root1,franco,Fallout 4,799,1,799,12/11/2022 19:28:00
+19,,consumidor final,Call of Duty Modern Warfare II,6990,1,6990,12/11/2022 19:38:12
+20,root1,consumidor final,Tom Clancy´s Rainbow Six Siege,999,1,999,12/11/2022 19:40:22
+21,root,consumidor final,WWE 2K22,5999,2,11998,12/11/2022 19:41:35
+22,root,consumidor final,Tom Clancy´s Rainbow Six Siege,999,1,999,12/11/2022 19:45:42
+23,root,consumidor final,Call of Duty Modern Warfare II,6990,1,6990,23/11/2022 19:00:18
+24,root,consumidor final,Spider-Man Remastered,4999,1,4999,23/11/2022 19:08:52
+25,root1,consumidor final,Fallout 4,799,1,799,23/11/2022 19:27:03
+26,root,consumidor final,Mafia (Definitive Edition),259,1,259,28/11/2022 11:57:30
+27,root,consumidor final,Mafia (Definitive Edition),259,1,259,28/11/2022 12:01:09
+28,root,consumidor final,Mafia (Definitive Edition),259,1,259,28/11/2022 12:05:05
+28,root,consumidor final,Spider-Man Remastered,4999,2,9998,28/11/2022 12:05:05
+29,root,rodrigo,TEKKEN 7,1990,1,1990,28/11/2022 13:05:19
+29,root,rodrigo,Tom Clancy´s Rainbow Six Siege,999,2,1998,28/11/2022 13:05:19
+29,root,rodrigo,Fallout 4,799,1,799,28/11/2022 13:05:19
+30,root,tomas,Mafia (Definitive Edition),259,1,259,28/11/2022 13:43:23
+30,root,tomas,Call of Duty Modern Warfare II,6990,2,13980,28/11/2022 13:43:23
+30,root,tomas,Tom Clancy´s Rainbow Six Siege,999,1,999,28/11/2022 13:43:23
+31,root,consumidor final,Call of Duty Modern Warfare II,6990,1,6990,28/11/2022 13:46:19
+32,root,consumidor final,Mafia (Definitive Edition),259,1,259,28/11/2022 13:51:34
+33,nombre,consumidor final,Red Dead Redemption II,2500,1,2500,30/11/2022 15:53:21
+34,root,consumidor final,Red Dead Redemption II,2500,2,5000,30/11/2022 20:54:13
+34,root,consumidor final,TEKKEN 7,1990,1,1990,30/11/2022 20:54:13
+35,nombre,consumidor final,Call of Duty Modern Warfare II,6990,1,6990,30/11/2022 20:56:03
+35,nombre,consumidor final,Destiny 2,2499,1,2499,30/11/2022 20:56:03
+36,root1,consumidor final,Destiny 2,2499,1,2499,30/11/2022 20:57:18
+37,root1,consumidor final,Spider-Man Remastered,4999,1,4999,30/11/2022 21:10:25
+38,root,consumidor final,Spider-Man Remastered,4999,1,4999,1/12/2022 00:34:11
+39,root,consumidor final,Far Cry 5,2999,1,2999,2/12/2022 00:38:16
+39,root,consumidor final,Call of Duty Black Ops III,990,1,990,2/12/2022 00:38:16
+40,root,franco,Red Dead Redemption II,2500,2,5000,2/12/2022 16:14:06
+40,root,franco,Destiny 2,2499,3,7497,2/12/2022 16:14:06
+41,root,consumidor final,MADDEN NFL 23,6400,30,192000,2/12/2022 16:22:23
+42,root,consumidor final,Red Dead Redemption II,2500,1,2500,3/12/2022 19:42:18
+43,root,tomas,FIFA 23,11999,1,11999,4/12/2022 23:52:20
+43,root,tomas,Mafia (Definitive Edition),259,1,259,4/12/2022 23:52:20
+44,root,tomas,Mafia (Definitive Edition),259,1,259,4/12/2022 23:56:51
+45,root,consumidor final,Red Dead Redemption II,2500,1,2500,6/12/2022 19:30:10
+46,root,consumidor final,NBA 2K23,9999,2,19998,6/12/2022 20:07:11
+47,root,consumidor final,Spider-Man Remastered,4999,1,4999,6/12/2022 20:59:51
+48,root1,consumidor final,Red Dead Redemption II,2500,1,2500,6/12/2022 21:00:12
+49,root,consumidor final,Spider-Man Remastered,4999,1,4999,6/12/2022 21:14:07

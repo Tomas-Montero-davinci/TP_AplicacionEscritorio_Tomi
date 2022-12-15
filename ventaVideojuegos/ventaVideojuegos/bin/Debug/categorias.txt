@@ -1,0 +1,6 @@
+1,Accion,True
+2,Deporte,True
+3,Simulacion,True
+4,Aventura,True
+5,asd,False
+6,d,False
