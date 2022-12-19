@@ -1,5 +1,2 @@
-1,nombre,apellido,false
-2,root,root,false
-3,root1,root1,false
-4,root2,root2,false
-5,admin,admin,true
+1,root,root,false
+2,admin,admin,true

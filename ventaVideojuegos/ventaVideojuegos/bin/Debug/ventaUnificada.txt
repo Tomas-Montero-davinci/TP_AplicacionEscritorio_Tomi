@@ -1,13 +1,11 @@
-37,root1,consumidor final,4999,30/11/2022 21:10:25
-38,root,consumidor final,4999,1/12/2022 00:34:11
-39,root,consumidor final,3989,2/12/2022 00:38:16
-40,root,franco,12497,2/12/2022 16:14:06
-41,root,consumidor final,192000,2/12/2022 16:22:23
-42,root,consumidor final,2500,3/12/2022 19:42:18
-43,root,tomas,12258,4/12/2022 23:52:19
-44,root,tomas,259,4/12/2022 23:56:51
-45,root,consumidor final,2500,6/12/2022 19:30:10
-46,root,consumidor final,19998,6/12/2022 20:07:11
-47,root,consumidor final,4999,6/12/2022 20:59:51
-48,root1,consumidor final,2500,6/12/2022 21:00:12
-49,root,consumidor final,4999,6/12/2022 21:14:07
+1,root,consumidor final,2500,17/12/2022 16:38:53
+2,root,franco,5518,17/12/2022 16:43:27
+3,root,franco,31996,17/12/2022 16:47:28
+4,root,consumidor final,8560,17/12/2022 16:47:57
+5,root,rodrigo,4498,17/12/2022 16:48:45
+6,root1,consumidor final,1598,17/12/2022 16:50:16
+7,root1,asd,7498,17/12/2022 16:50:44
+8,root1,consumidor final,1998,17/12/2022 16:51:07
+9,root1,consumidor final,69900,17/12/2022 16:51:23
+10,root1,franco,42497,17/12/2022 16:51:49
+11,root1,rodrigo,2500,17/12/2022 23:23:04

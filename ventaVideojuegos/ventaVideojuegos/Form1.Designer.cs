@@ -31,8 +31,8 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.Panel = new Guna.UI2.WinForms.Guna2GradientPanel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.guna2ImageCheckBox1 = new Guna.UI2.WinForms.Guna2ImageCheckBox();
             this.txtNombreUsuario = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2ImageCheckBox1 = new Guna.UI2.WinForms.Guna2ImageCheckBox();
             this.guna2GradientPanel1 = new Guna.UI2.WinForms.Guna2GradientPanel();
             this.btnStats = new Guna.UI2.WinForms.Guna2GradientButton();
             this.btnVentas = new Guna.UI2.WinForms.Guna2GradientButton();
@@ -79,19 +79,6 @@
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click_1);
             // 
-            // guna2ImageCheckBox1
-            // 
-            this.guna2ImageCheckBox1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2ImageCheckBox1.CheckedState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image")));
-            this.guna2ImageCheckBox1.Image = ((System.Drawing.Image)(resources.GetObject("guna2ImageCheckBox1.Image")));
-            this.guna2ImageCheckBox1.ImageOffset = new System.Drawing.Point(0, 0);
-            this.guna2ImageCheckBox1.ImageRotate = 0F;
-            this.guna2ImageCheckBox1.ImageSize = new System.Drawing.Size(130, 50);
-            this.guna2ImageCheckBox1.Location = new System.Drawing.Point(-27, 0);
-            this.guna2ImageCheckBox1.Name = "guna2ImageCheckBox1";
-            this.guna2ImageCheckBox1.Size = new System.Drawing.Size(213, 77);
-            this.guna2ImageCheckBox1.TabIndex = 0;
-            // 
             // txtNombreUsuario
             // 
             this.txtNombreUsuario.Anchor = System.Windows.Forms.AnchorStyles.Right;
@@ -105,6 +92,19 @@
             this.txtNombreUsuario.TabIndex = 2;
             this.txtNombreUsuario.Text = "Grupo 4";
             this.txtNombreUsuario.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // guna2ImageCheckBox1
+            // 
+            this.guna2ImageCheckBox1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2ImageCheckBox1.CheckedState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image")));
+            this.guna2ImageCheckBox1.Image = ((System.Drawing.Image)(resources.GetObject("guna2ImageCheckBox1.Image")));
+            this.guna2ImageCheckBox1.ImageOffset = new System.Drawing.Point(0, 0);
+            this.guna2ImageCheckBox1.ImageRotate = 0F;
+            this.guna2ImageCheckBox1.ImageSize = new System.Drawing.Size(130, 50);
+            this.guna2ImageCheckBox1.Location = new System.Drawing.Point(-27, 0);
+            this.guna2ImageCheckBox1.Name = "guna2ImageCheckBox1";
+            this.guna2ImageCheckBox1.Size = new System.Drawing.Size(213, 77);
+            this.guna2ImageCheckBox1.TabIndex = 0;
             // 
             // guna2GradientPanel1
             // 
@@ -213,7 +213,6 @@
             this.panelContainer.Size = new System.Drawing.Size(1425, 709);
             this.panelContainer.TabIndex = 6;
             this.panelContainer.UseTransparentBackground = true;
-            this.panelContainer.Paint += new System.Windows.Forms.PaintEventHandler(this.panelContainer_Paint);
             // 
             // Form1
             // 
@@ -228,7 +227,7 @@
             this.Name = "Form1";
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form1";
+            this.Text = "Inicio";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Panel.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

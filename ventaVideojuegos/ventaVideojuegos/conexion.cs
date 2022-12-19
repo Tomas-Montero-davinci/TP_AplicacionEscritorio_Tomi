@@ -13,8 +13,8 @@ namespace ventaVideojuegos
 
         public static SqlConnection Conectar()
         {
-            //SqlConnection cn = new SqlConnection("Data Source=DESKTOP-Q0LUSNR;" + "Initial Catalog=bd_tiendaPdesarrollo;" + "Integrated Security=SSPI;");
-            SqlConnection cn = new SqlConnection("Data Source=LAPTOP-4N5OC00F;" + "Initial Catalog=bd_tiendaPdesarrollo;" + "Integrated Security=SSPI;");
+            SqlConnection cn = new SqlConnection("Data Source=DESKTOP-Q0LUSNR;" + "Initial Catalog=tienda;" + "Integrated Security=SSPI;");
+          //  SqlConnection cn = new SqlConnection("Data Source=LAPTOP-4N5OC00F;" + "Initial Catalog=bd_tiendaPdesarrollo;" + "Integrated Security=SSPI;");
             
             cn.Open();
 

@@ -16,18 +16,20 @@ namespace ventaVideojuegos
 
     {
 
-        public string nombre = Login.usuario;
-        public bool admU = Login.esAdm;
+        public string nombre = Login.usuario.ToString() ;
+        public bool Adm = bool.Parse(Login.esAdm) ;
         
         
 
         public Form1()
         {
+            
             InitializeComponent();
+
 
             txtNombreUsuario.Text = nombre;
 
-            if(admU)
+            if (Adm)
             {
                 UC_Admin uc = new UC_Admin();
                 addUserControl(uc);
@@ -41,7 +43,7 @@ namespace ventaVideojuegos
 
         private void btnVentas_Click(object sender, EventArgs e)
         {
-            if (admU)
+            if (Adm)
             {
                 MessageBox.Show("No tiene permitido acceder a esta sección", "Error", MessageBoxButtons.OK);
             }
@@ -55,7 +57,7 @@ namespace ventaVideojuegos
 
         private void btnAdmin_Click(object sender, EventArgs e)
         {
-            if (admU)
+            if (Adm)
             {
                 UC_Admin uc = new UC_Admin();
                 addUserControl(uc);
@@ -81,15 +83,6 @@ namespace ventaVideojuegos
             addUserControl(uc);
         }
 
-        private void panelContainer_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
-        }
 
         private void pictureBox1_Click_1(object sender, EventArgs e)
         {

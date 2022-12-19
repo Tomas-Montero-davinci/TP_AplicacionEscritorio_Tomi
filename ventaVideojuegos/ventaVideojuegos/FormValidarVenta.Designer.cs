@@ -187,7 +187,7 @@
             this.Controls.Add(this.txtID);
             this.Controls.Add(this.label3);
             this.Name = "FormValidarVenta";
-            this.Text = "FormValidarVenta";
+            this.Text = "Finalizar venta";
             this.ResumeLayout(false);
             this.PerformLayout();
 

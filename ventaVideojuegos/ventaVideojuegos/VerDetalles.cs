@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -18,11 +19,13 @@ namespace ventaVideojuegos
        
         public VerDetalles(int idVenta)
         {
+            
             InitializeComponent();
             lblVenta.Text = lblVenta.Text + " " + idVenta;
             verProductosVendidos(idVenta);
         }
 
+        
         public void verProductosVendidos(int idVenta)
         {
           
@@ -48,5 +51,6 @@ namespace ventaVideojuegos
             this.Close();
 
         }
+
     }
 }

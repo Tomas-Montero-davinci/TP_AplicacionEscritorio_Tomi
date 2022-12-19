@@ -17,13 +17,16 @@ using ventaVideojuegos;
 using ventaVideojuegos.Controlers;
 using ventaVideojuegos.Modelo;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
+using Aspose.Pdf.Devices;
+using static System.Net.WebRequestMethods;
+using UXDivers.Gorilla;
 
 namespace ventaVideojuegos.UsersControls
 {
     public partial class UC_Ventas : UserControl
     {
 
-       public FormValidarVenta datos;
+        public FormValidarVenta datos;
         public Venta ventaNueva;
         public VentaUnificada ventaUnueva;
         public static string NombreProdComprar;
@@ -45,26 +48,49 @@ namespace ventaVideojuegos.UsersControls
             VisualizarVentas();
         }
 
-       public void descontarStock(int cantStock, string nameProd)
-       {
-           Producto auxiliar = ControladorProductos.GetProductoByName(nameProd);
-           if (auxiliar.Stock > cantStock)
-           {
-               auxiliar.Stock = auxiliar.Stock - cantStock;
-               ControladorProductos.ActualizarProductos(auxiliar.Id, auxiliar);
-           }
+        public void descontarStock(int cantStock, string nameProd)
+        {
+            Producto auxiliar = ControladorProductos.GetProductoByName(nameProd);
+            if (auxiliar.Stock > cantStock)
+            {
+                auxiliar.Stock = auxiliar.Stock - cantStock;
+                ControladorProductos.ActualizarProductos(auxiliar.Id, auxiliar);
+            }
 
-       }
+        }
+
+        public void convertirPdfJpg(Venta venta)
+        {
+            List<Venta> lista = ControladorVentas.GetVentaById(venta.Id);
+
+            // Abrir documento
+            Aspose.Pdf.Document pdfDocument = new Aspose.Pdf.Document(Environment.CurrentDirectory + @"\Facturas\" + "Factura_" + venta.Id + ".pdf");
+
+            foreach (var page in pdfDocument.Pages)
+            {
+                // Definir resolución
+                Resolution resolution = new Resolution(300);
+
+                // Crear dispositivo JPEG con atributos específicos
+                // Ancho, Alto, Resolución
+                JpegDevice JpegDevice = new JpegDevice(500, 700, resolution);
+
+                // Convierta una página en particular y guarde la imagen para transmitir
+                JpegDevice.Process(pdfDocument.Pages[page.Number], Environment.CurrentDirectory + @"\Facturas\" + "Factura_" + venta.Id + ".jpg");
+            }
+
+        }
 
         public void generarPDF(Venta venta)
         {
             List<Venta> lista = ControladorVentas.GetVentaById(venta.Id);
             int total = 0;
-           
+
 
             //ruta y nombre  //a esta ruta cambiarla segun el usuario
-            System.IO.FileStream fs = new FileStream( Environment.CurrentDirectory + @"\Facturas\" + "Factura_" + venta.Id + ".pdf", FileMode.Create );
-            
+            System.IO.FileStream fs = new FileStream(Environment.CurrentDirectory + @"\Facturas\" + "Factura_" + venta.Id + ".pdf", FileMode.Create);
+
+
 
             // tamaño del pdf
             Document document = new Document(PageSize.A4, 25, 25, 30, 30);
@@ -91,11 +117,11 @@ namespace ventaVideojuegos.UsersControls
 
             foreach (Venta v in lista)
             {
-                document.Add(new Paragraph(v.nombreProducto + " : " + "     " +"Valor unitario: "+v.precioProducto+"   "+"Cantidad: "+v.cantidadProducto+"   "+"Valor Total: "+v.valorTotal));
+                document.Add(new Paragraph(v.nombreProducto + " : " + "     " + "Valor unitario: " + v.precioProducto + "   " + "Cantidad: " + v.cantidadProducto + "   " + "Valor Total: " + v.valorTotal));
                 total += v.valorTotal;
             }
 
-            document.Add(new Paragraph("total: " + "     "+total /*el total*/));
+            document.Add(new Paragraph("total: " + "     " + total /*el total*/));
 
             document.Close();
             writer.Close();
@@ -128,8 +154,6 @@ namespace ventaVideojuegos.UsersControls
 
                 VerDetalles formVerDetalles = new VerDetalles(idVentaU);
                 DialogResult dialogResult = formVerDetalles.ShowDialog();
-
-
 
             }
             else
@@ -292,6 +316,7 @@ namespace ventaVideojuegos.UsersControls
 
                 }
                 generarPDF(ventaNueva);
+                convertirPdfJpg(ventaNueva);
             }
             else
             {
@@ -299,6 +324,23 @@ namespace ventaVideojuegos.UsersControls
             }
 
         }
+
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {
+            if (dataGridViewCVentas.SelectedRows.Count == 1)
+            {
+                int idVentaU = int.Parse(dataGridViewCVentas.SelectedRows[0].Cells[0].Value.ToString());
+
+                VerFactura formVerFactura = new VerFactura(idVentaU);
+                DialogResult dialogResult = formVerFactura.ShowDialog();
+
+            }
+            else
+            {
+                MessageBox.Show("Debes seleccionar una venta para ver su factura", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
     }
+    
 }
             

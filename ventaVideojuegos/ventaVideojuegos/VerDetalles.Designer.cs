@@ -127,7 +127,7 @@
             this.btnCerrarDetails.BackColor = System.Drawing.SystemColors.HighlightText;
             this.btnCerrarDetails.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnCerrarDetails.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btnCerrarDetails.Location = new System.Drawing.Point(140, 302);
+            this.btnCerrarDetails.Location = new System.Drawing.Point(261, 302);
             this.btnCerrarDetails.Name = "btnCerrarDetails";
             this.btnCerrarDetails.Size = new System.Drawing.Size(100, 26);
             this.btnCerrarDetails.TabIndex = 33;
@@ -159,7 +159,7 @@
             this.Controls.Add(this.dataGridViewV);
             this.Name = "VerDetalles";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "VerDetalles";
+            this.Text = "Ver detalles de pedido";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewV)).EndInit();
             this.ResumeLayout(false);
 

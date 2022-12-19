@@ -161,7 +161,7 @@
             this.ForeColor = System.Drawing.Color.Red;
             this.Name = "FormCategoria";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "FormCategoria";
+            this.Text = "Categoria";
             this.ResumeLayout(false);
             this.PerformLayout();
 

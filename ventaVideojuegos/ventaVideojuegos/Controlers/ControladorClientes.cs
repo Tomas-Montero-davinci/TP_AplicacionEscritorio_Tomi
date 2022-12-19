@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.SqlClient;
 using System.IO;
 using System.Linq;
 using System.Text;
@@ -19,7 +20,7 @@ namespace ventaVideojuegos.Controlers
         {
             Clientes = new List<Cliente>();
 
-            if(!File.Exists("clientes.txt"))
+            if (!File.Exists("clientes.txt"))
             {
                 StreamWriter archivo = new StreamWriter("clientes.txt");
                 archivo.Close();
@@ -38,7 +39,7 @@ namespace ventaVideojuegos.Controlers
                         Apellido = datos[2],
                         NUsuario = datos[3],
                         Email = datos[4],
-                       // Contrasena = datos[5],
+                        // Contrasena = datos[5],
                         Vista = bool.Parse(datos[5])
                     };
 
@@ -56,6 +57,30 @@ namespace ventaVideojuegos.Controlers
             GuardarEnMemoria(cte);
         }
 
+        //Funcion que añade categorias a la DB
+        public static void AñadirClienteDB(Cliente cte)
+        {
+
+            Conexion.Conectar();
+            string consulta = "Use tienda; insert into Cliente (Nombre,Apellido,NombreUsuario,Email,Visible) values (@nombre,@apellido,@nombreUsuario,@email,@visible);";
+            SqlCommand cmd = new SqlCommand(consulta, Conexion.Conectar());
+            cmd.Parameters.AddWithValue("@nombre", cte.Nombre);
+            cmd.Parameters.AddWithValue("@apellido", cte.Nombre);
+            cmd.Parameters.AddWithValue("@nombreUsuario", cte.Nombre);
+            cmd.Parameters.AddWithValue("@email", cte.Nombre);
+            cmd.Parameters.AddWithValue("@visible", cte.Vista);
+
+            try
+            {
+                cmd.ExecuteNonQuery();
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Hay un error en la query: " + ex.Message);
+            }
+
+        }
+
         public static void ActualizarCliente(int id, Cliente cte)
         {
             int index = Clientes.FindIndex(e => e.Id.Equals(id));
@@ -66,6 +91,30 @@ namespace ventaVideojuegos.Controlers
             GuardarEnMemoriaLista();
         }
 
+
+        // actualiza la consola en la DB mediante una consulta update
+        public static void ActualizarClienteDB(int idcategoria, Cliente cte)
+        {
+            Conexion.Conectar();
+            string consulta = "Use tienda; update Cliente set Nombre = @nombre,Apellido=@apellido,NombreUsuario=@nombreUsuario,Email=@email, Visible=@visible where IdCliente = @id;";
+            SqlCommand cmd = new SqlCommand(consulta, Conexion.Conectar());
+            cmd.Parameters.AddWithValue("@id", idcategoria);
+            cmd.Parameters.AddWithValue("@nombre", cte.Nombre);
+            cmd.Parameters.AddWithValue("@apellido", cte.Apellido);
+            cmd.Parameters.AddWithValue("@nombreUsuario", cte.NUsuario);
+            cmd.Parameters.AddWithValue("@email", cte.Email);
+            cmd.Parameters.AddWithValue("@visible", cte.Vista);
+
+            try
+            {
+                cmd.ExecuteNonQuery();
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Hay un error en la query: " + ex.Message);
+            }
+        }
+
         public static void EliminarCliente(int id)
         {
             Cliente cte = Clientes.FirstOrDefault(c => c.Id == id);
@@ -73,10 +122,63 @@ namespace ventaVideojuegos.Controlers
             ActualizarCliente(id, cte);
         }
 
+        //eliminar categoria en la DB cambia la vista de 1 a 0
+        public static void EliminarClienteDB(int Id)
+        {
+
+            Conexion.Conectar();
+            string consulta = "Use tienda; update Cliente set Visible='0' where IdCliente = @id;";
+            SqlCommand cmd = new SqlCommand(consulta, Conexion.Conectar());
+            cmd.Parameters.AddWithValue("@id", Id);
+
+            try
+            {
+                cmd.ExecuteNonQuery();
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Hay un error en la query: " + ex.Message);
+            }
+
+        }
+
+        // trae el cliente solicitado mediante un id desde la base de datos
+        public static Cliente GetOne(int Id)
+        {
+            Conexion.Conectar();
+            string query = "use tienda; select * from Cliente where IdCliente = @id";
+            SqlCommand cmd = new SqlCommand(query, Conexion.Conectar());
+            cmd.Parameters.AddWithValue("@id", Id);
+
+            try
+            {
+                Cliente cte = new Cliente();
+                SqlDataReader reader = cmd.ExecuteReader();
+
+                while (reader.Read())
+                {
+                    cte.Id = reader.GetInt32(0);
+                    cte.Nombre = reader.GetString(1);
+                    cte.Apellido = reader.GetString(2);
+                    cte.NUsuario = reader.GetString(3);
+                    cte.Email = reader.GetString(4);
+                    cte.Vista = reader.GetBoolean(5);
+                }
+                reader.Close();
+
+                return cte;
+            }
+
+            catch (Exception ex)
+            {
+                throw new Exception("Hay un error en la query: " + ex.Message);
+            }
+        }
+
         public static void GuardarEnMemoria(Cliente cte)
         {
             StreamWriter archivo = new StreamWriter("clientes.txt", true);
-            archivo.WriteLine(cte.Id + "," + cte.Nombre + "," + cte.Apellido + "," + cte.NUsuario + "," +cte.Email + /*","  + cte.Contrasena + */  "," + cte.Vista);
+            archivo.WriteLine(cte.Id + "," + cte.Nombre + "," + cte.Apellido + "," + cte.NUsuario + "," + cte.Email + /*","  + cte.Contrasena + */  "," + cte.Vista);
             archivo.Close();
         }
 
@@ -98,8 +200,8 @@ namespace ventaVideojuegos.Controlers
                 if (_lista == null)
                 {
                     _lista = new ListaClientes();
-                    
-                    if(!File.Exists("clientes.txt"))
+
+                    if (!File.Exists("clientes.txt"))
                     {
                         StreamWriter archivo = new StreamWriter("clientes.txt");
                         archivo.Close();
@@ -114,7 +216,7 @@ namespace ventaVideojuegos.Controlers
                             string apellido = archivo.ReadLine();
                             string nusuario = archivo.ReadLine();
                             string email = archivo.ReadLine();
-                           // string contrasena = archivo.ReadLine();
+                            // string contrasena = archivo.ReadLine();
                             string vista = archivo.ReadLine();
 
                             Cliente cte = new Cliente()
@@ -124,7 +226,7 @@ namespace ventaVideojuegos.Controlers
                                 Apellido = apellido,
                                 NUsuario = nusuario,
                                 Email = email,
-                             //   Contrasena = contrasena,
+                                //   Contrasena = contrasena,
                                 Vista = bool.Parse(vista)
                             };
                             _lista.GuardarEnInstancia(cte);

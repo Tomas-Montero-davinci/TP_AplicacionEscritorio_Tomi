@@ -62,7 +62,7 @@
             this.tabPage2.Location = new System.Drawing.Point(184, 4);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(696, 222);
+            this.tabPage2.Size = new System.Drawing.Size(869, 222);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Productos";
             // 
@@ -71,7 +71,7 @@
             this.lblcantVentasMax.BackColor = System.Drawing.Color.Transparent;
             this.lblcantVentasMax.Font = new System.Drawing.Font("Open Sans", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblcantVentasMax.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.lblcantVentasMax.Location = new System.Drawing.Point(616, 146);
+            this.lblcantVentasMax.Location = new System.Drawing.Point(753, 146);
             this.lblcantVentasMax.Name = "lblcantVentasMax";
             this.lblcantVentasMax.Size = new System.Drawing.Size(38, 24);
             this.lblcantVentasMax.TabIndex = 19;
@@ -82,7 +82,7 @@
             this.lblcantStockMax.BackColor = System.Drawing.Color.Transparent;
             this.lblcantStockMax.Font = new System.Drawing.Font("Open Sans", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblcantStockMax.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.lblcantStockMax.Location = new System.Drawing.Point(616, 93);
+            this.lblcantStockMax.Location = new System.Drawing.Point(753, 93);
             this.lblcantStockMax.Name = "lblcantStockMax";
             this.lblcantStockMax.Size = new System.Drawing.Size(38, 24);
             this.lblcantStockMax.TabIndex = 18;
@@ -164,7 +164,7 @@
             this.tabPage1.Location = new System.Drawing.Point(184, 4);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(696, 222);
+            this.tabPage1.Size = new System.Drawing.Size(869, 222);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "General";
             // 
@@ -173,7 +173,7 @@
             this.txtTotalRecaudado.BackColor = System.Drawing.Color.Transparent;
             this.txtTotalRecaudado.Font = new System.Drawing.Font("Open Sans", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtTotalRecaudado.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.txtTotalRecaudado.Location = new System.Drawing.Point(381, 111);
+            this.txtTotalRecaudado.Location = new System.Drawing.Point(437, 93);
             this.txtTotalRecaudado.Name = "txtTotalRecaudado";
             this.txtTotalRecaudado.Size = new System.Drawing.Size(152, 24);
             this.txtTotalRecaudado.TabIndex = 17;
@@ -184,7 +184,7 @@
             this.txtCantVentas.BackColor = System.Drawing.Color.Transparent;
             this.txtCantVentas.Font = new System.Drawing.Font("Open Sans", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtCantVentas.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.txtCantVentas.Location = new System.Drawing.Point(381, 61);
+            this.txtCantVentas.Location = new System.Drawing.Point(437, 37);
             this.txtCantVentas.Name = "txtCantVentas";
             this.txtCantVentas.Size = new System.Drawing.Size(120, 24);
             this.txtCantVentas.TabIndex = 16;
@@ -195,7 +195,7 @@
             this.guna2HtmlLabel3.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel3.Font = new System.Drawing.Font("Open Sans", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel3.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.guna2HtmlLabel3.Location = new System.Drawing.Point(154, 111);
+            this.guna2HtmlLabel3.Location = new System.Drawing.Point(107, 93);
             this.guna2HtmlLabel3.Name = "guna2HtmlLabel3";
             this.guna2HtmlLabel3.Size = new System.Drawing.Size(131, 24);
             this.guna2HtmlLabel3.TabIndex = 15;
@@ -206,7 +206,7 @@
             this.guna2HtmlLabel2.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel2.Font = new System.Drawing.Font("Open Sans", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel2.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.guna2HtmlLabel2.Location = new System.Drawing.Point(154, 61);
+            this.guna2HtmlLabel2.Location = new System.Drawing.Point(107, 37);
             this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
             this.guna2HtmlLabel2.Size = new System.Drawing.Size(209, 24);
             this.guna2HtmlLabel2.TabIndex = 14;
@@ -221,7 +221,7 @@
             this.guna2TabControl1.Location = new System.Drawing.Point(10, 12);
             this.guna2TabControl1.Name = "guna2TabControl1";
             this.guna2TabControl1.SelectedIndex = 0;
-            this.guna2TabControl1.Size = new System.Drawing.Size(884, 230);
+            this.guna2TabControl1.Size = new System.Drawing.Size(1057, 230);
             this.guna2TabControl1.TabButtonHoverState.BorderColor = System.Drawing.Color.Empty;
             this.guna2TabControl1.TabButtonHoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(52)))), ((int)(((byte)(70)))));
             this.guna2TabControl1.TabButtonHoverState.Font = new System.Drawing.Font("Segoe UI Semibold", 10F);
@@ -247,7 +247,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.guna2TabControl1);
             this.Name = "UC_Stats";
-            this.Size = new System.Drawing.Size(911, 576);
+            this.Size = new System.Drawing.Size(1087, 510);
             this.tabPage2.ResumeLayout(false);
             this.tabPage2.PerformLayout();
             this.tabPage1.ResumeLayout(false);

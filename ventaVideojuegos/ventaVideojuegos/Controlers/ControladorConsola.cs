@@ -18,6 +18,7 @@ namespace ventaVideojuegos
 
         public static void IniciarRepositorio()
         {
+
             Consolas = new List<Consola>();
 
             if (!File.Exists("consolas.txt"))
@@ -58,7 +59,7 @@ namespace ventaVideojuegos
         {
 
             Conexion.Conectar();
-            string consulta = "Use bd_tiendaPdesarrollo; insert into Consola (Nombre,Visible) values (@nombre,@visible)";
+            string consulta = "Use tienda; insert into Consola (Nombre,Visible) values (@nombre,@visible)";
             SqlCommand cmd = new SqlCommand(consulta, Conexion.Conectar());
             cmd.Parameters.AddWithValue("@nombre", con.Nombre);
             cmd.Parameters.AddWithValue("@visible", con.Vista);
@@ -98,7 +99,7 @@ namespace ventaVideojuegos
         {
 
             Conexion.Conectar();
-            string consulta = "Use bd_tiendaPdesarrollo; update Consola set Visible='0' where IdConsola = @id;";
+            string consulta = "Use tienda; update Consola set Visible='0' where IdConsola = @id;";
             SqlCommand cmd = new SqlCommand(consulta, Conexion.Conectar());
             cmd.Parameters.AddWithValue("@id", Id);
 
@@ -117,7 +118,7 @@ namespace ventaVideojuegos
         public static Consola GetOne(int Id)
         {
             Conexion.Conectar();
-            string query = "use bd_tiendaPdesarrollo; select * from Consola where IdConsola = @id";
+            string query = "use tienda; select * from Consola where IdConsola = @id";
             SqlCommand cmd = new SqlCommand(query, Conexion.Conectar());
             cmd.Parameters.AddWithValue("@id", Id);
 
@@ -157,7 +158,7 @@ namespace ventaVideojuegos
         public static void ActualizarConsolaDB(int idconsola, Consola con)
         {
             Conexion.Conectar();
-            string consulta = "Use bd_tiendaPdesarrollo; update Consola set Nombre = @nombre, Visible=@visible where IdConsola = @id;";
+            string consulta = "Use tienda; update Consola set Nombre = @nombre, Visible=@visible where IdConsola = @id;";
             SqlCommand cmd = new SqlCommand(consulta, Conexion.Conectar());
             cmd.Parameters.AddWithValue("@id", idconsola);
             cmd.Parameters.AddWithValue("@nombre", con.Nombre);
